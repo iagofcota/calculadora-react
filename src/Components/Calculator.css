@@ -1,0 +1,55 @@
+
+.calculadora{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1em; 
+    padding: 1em;
+    /*display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide em 4 colunas iguais */
+    /*grid-gap: 0.2em; /* Adiciona espaçamento entre os botões */
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em; /*DEIXA BOTÃO REDONDO*/
+    margin: 0.3em;
+    cursor: pointer;  
+}
+
+button:active{ /*efeito para quando clicar no botão*/
+    opacity: 0.9;
+}
+
+.bt-cinza{
+    background-color: rgb(158, 157, 156);
+    color: white;
+}
+
+.bt-cinzaclaro{
+    background-color: rgb(85, 84, 83);
+    color: white;
+}
+
+.bt-laranja{
+    background-color: orange;
+    color: white;
+}
+
+.button-zero{
+    background-color: rgb(85, 84, 83);
+    color: white;
+    grid-column: span 2;
+}
+
+.resultado{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+    margin-right: 0.5em;
+    font-size: 3em;
+}
+
